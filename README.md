@@ -22,7 +22,7 @@ BEGIN
 END;
 /
 
-**Registrar Venda**
+- **Registrar Venda**
 
 CREATE OR REPLACE PROCEDURE registrar_venda (
     p_id_produto   IN NUMBER,
@@ -30,14 +30,14 @@ CREATE OR REPLACE PROCEDURE registrar_venda (
     p_quantidade   IN NUMBER
 );
 
-**Gerar Relatório de Vendas**
+- **Gerar Relatório de Vendas**
 BEGIN
     relatorio_vendas;
 END;
 /
 
 
-**Comparação de Vendas**
+- **Comparação de Vendas**
 
 CREATE OR REPLACE FUNCTION comparacao_vendas (
     p_data_inicio1 IN DATE,
