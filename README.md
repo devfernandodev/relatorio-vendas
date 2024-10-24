@@ -9,7 +9,7 @@
 
 # Instruções de Uso
 
--**Inserir Produto**
+- **Inserir Produto**
 
 BEGIN
     inserir_produto(
